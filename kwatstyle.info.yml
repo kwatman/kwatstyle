@@ -1,0 +1,26 @@
+name: kwatstyle
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - kwatstyle/base
+  - kwatstyle/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - kwatstyle/user
+  core/drupal.dropbutton:
+    - kwatstyle/dropbutton
+  core/drupal.dialog:
+    - kwatstyle/dialog
+  file/drupal.file:
+    - kwatstyle/file
+  core/drupal.progress:
+    - kwatstyle/progress
+core_version_requirement: ^9
+generator: 'starterkit_theme:9.4.8'
+regions:
+  navbar_title: 'Navbar title'
+  navbar_main: 'Navbar main'
+  navbar_right: 'Navbar right'
