@@ -5,6 +5,8 @@
 
 ul.menu {
   margin-left: 1em; /* LTR */
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 0;
   list-style: none outside;
   text-align: left; /* LTR */
@@ -25,10 +27,41 @@ ul.menu {
 [dir="rtl"] .menu-item--collapsed {
   list-style-image: url(../../images/icons/menu-collapsed-rtl.png);
 }
-.menu-item {
+.region-sidebar-left .menu-item {
   margin: 0;
   padding-top: 0.2em;
 }
-ul.menu a.is-active {
+
+.region-sidebar-left .menu-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.1em;
+  width: calc(100% - 20px);
+  display:block;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.region-sidebar-left .menu-item a:hover{
+  color: white;
+  background-color: grey;
+}
+
+.region-sidebar-left ul.menu a.is-active {
   color: #000;
 }
+.region-sidebar-left  .block> .menu  {
+  margin-left: 0px;
+}
+
+.region-sidebar-left .block {
+  padding: 5px;
+  background-color: var(--secondary);
+}
+
+.region-sidebar-left .block h2 {
+  color: white;
+  padding: 0px 10px;
+  margin: 5px 0px 2px 0px;
+}
+

@@ -3,6 +3,7 @@ base:
   css:
     theme:
       css/colors.css: {}
+      css/layout.css: {}
     component:
       css/components/action-links.css:
         weight: -10

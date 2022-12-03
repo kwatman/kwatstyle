@@ -24,3 +24,4 @@ regions:
   navbar_title: 'Navbar title'
   navbar_main: 'Navbar main'
   navbar_right: 'Navbar right'
+  sidebar_left: 'Sidebar left'
