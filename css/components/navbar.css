@@ -1,3 +1,50 @@
 .navbar{
-    background-color: var(--navbar);
+    background-color: var(--primary);
+    display: flex;
+    padding:  10px;
+    column-gap: 10px;
+}
+
+.region-navbar-title{
+    display: flex;
+    align-items: center;
+}
+.region-navbar-main{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.region-navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+/*Branding*/
+.block-system-branding-block{
+    display: flex;
+    align-items: center;
+}
+
+.site-logo{
+    margin-right: 10px;
+}
+
+.site-name a{
+    text-decoration: none;
+    color: var(--navbar-text);
+    font-size: 1.6em;
+}
+
+/*Main*/
+.menu-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    column-gap: 10px;
+}
+
+.menu-nav-item a{
+    text-decoration: none;
+    color: var(--navbar-text);
 }
