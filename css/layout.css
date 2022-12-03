@@ -1,20 +1,25 @@
 .main-content{
     display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    min-height: 50vh;
+    grid-template-columns: minmax(250px,250px) 2fr 0.5fr;
+    height: 90vh;
 }
 .layout-sidebar-first{
     grid-column: 1;
     grid-row: 1;
     /*border-right: solid 1px var(--primary) ;*/
     width: 250px;
+    height: 100%;
 }
+
+.region-sidebar-left{
+    height: 100%;
+    background-color: var(--secondary);
+}
+
 
 .layout-content{
     grid-column: 2;
     grid-row: 1;
-}
-
-.block-menu{
-
+    justify-self: center;
+    width: 80%;
 }

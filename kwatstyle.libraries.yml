@@ -53,6 +53,8 @@ base:
         weight: -10
       css/components/navbar.css:
         weight: -10
+      css/components/book.css:
+        weight: -10
 dialog:
   version: VERSION
   css:
