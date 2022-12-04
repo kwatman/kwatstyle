@@ -31,7 +31,7 @@
 
 .site-name a{
     text-decoration: none;
-    color: var(--navbar-text);
+    color: var(--primary-text);
     font-size: 1.6em;
 }
 
@@ -46,5 +46,5 @@
 
 .menu-nav-item a{
     text-decoration: none;
-    color: var(--navbar-text);
+    color: var(--primary-text);
 }

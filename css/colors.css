@@ -1,8 +1,9 @@
 :root{
-    --navbar: #4C4B63;
-    --navbar-text: #ffffff;
-    --primary: #4C4B63; 
-    --secondary: #b1b1b1;
+    --primary: #0E0F0F; 
+    --primary-text: #ffffff;
+    --secondary: #292c2e;
+    --secondary-text: #ffffff;
+
 }
 
 body{

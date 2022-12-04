@@ -3,7 +3,9 @@ $info = [
   // Available colors and color labels used in theme.
   'fields' => [
     'primary' => t('Primary Color'),
+    'primary_text' => t('Primary Text'),
     'secondary' => t('Secondary Color'),
+    'secondary_text' => t('Secondary Text'),
     'text' => t('Text Color'),
     'background' => t('Background Color')
   ],
@@ -12,20 +14,13 @@ $info = [
     'default' => [
       'title' => t('Default'),
       'colors' => [
-         'primary' => '#8a8a8a',
-         'secondary' => '#536dfe',
+         'primary' => '#0E0F0F',
+         'primary_text' => '#ffffff',
+         'secondary' => '#292c2e',
+         'secondary_text' => '#ffffff',
          'text' => '#3b3b3b',
          'background' => '#ffffff'
       ],
-    ],
-    'red' => [
-      'title' => t('Red'),
-      'colors' => [
-        'primary' => '#f44336',
-        'secondary' => '#ffcdd2',
-        'text' => '#600000',
-        'background' => '#ffffff'
-      ]
     ]
   ]
 ];
