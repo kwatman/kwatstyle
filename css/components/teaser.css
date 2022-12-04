@@ -1,0 +1,27 @@
+.teaser{
+    border: solid grey 1px;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.teaser h2{
+    text-align: center;
+    margin: 5px 0px;
+    border-bottom: solid grey 1px;
+}
+
+.teaser h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.teaser img {
+    width: 100px;
+    height: 100px;
+}
+.teaser .node__content{
+    text-align: center;
+}
+.teaser .node__content div:not(:last-child) {
+    border-bottom: solid grey 1px;
+}
